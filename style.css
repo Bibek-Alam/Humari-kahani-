@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Georgia', serif;
+    background: linear-gradient(
+        to bottom,
+        #0b1020,
+        #182848,
+        #274060
+    );
+    color:white;
+}
+
+#website-content{
+    display:none;
+}
+
+#password-screen{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.rose-container{
+    text-align:center;
+}
+
+.rose{
+    font-size:80px;
+    animation: float 3s infinite;
+}
+
+input{
+    padding:12px;
+    width:250px;
+    border:none;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero h1{
+    font-size:4rem;
+}
+
+.quote{
+    margin-top:20px;
+    font-style:italic;
+}
+
+.card{
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:25px;
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+.card p{
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.placeholder{
+    margin-top:20px;
+    border:2px dashed white;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+}
+
+.seed{
+    background:rgba(255,255,255,.1);
+    margin:15px 0;
+    padding:15px;
+    border-radius:15px;
+}
+
+.seed span{
+    display:block;
+    opacity:.8;
+    margin-top:5px;
+}
+
+#secret-message{
+    display:none;
+    margin-top:20px;
+}
+
+.birthday-tree{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.call-btn{
+    display:inline-block;
+    margin-top:30px;
+    text-decoration:none;
+    background:#25D366;
+    color:white;
+    padding:15px 25px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+@keyframes float{
+    50%{
+        transform:translateY(-10px);
+    }
+}

@@ -156,3 +156,7 @@ button{
     width:180px;
     animation:float 4s ease-in-out infinite;
 }
+.birthday-tree-image{
+width:300px;
+max-width:90%;
+}

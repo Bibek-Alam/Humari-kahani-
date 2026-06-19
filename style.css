@@ -8,7 +8,7 @@ body{
     font-family: 'Georgia', serif;
     overflow-x:hidden;
     
-background-image:url('assets/garden.jpg');
+background-image:url('assets/garden.png');
 background-size:cover;
 background-position:center;
 background-attachment:fixed;

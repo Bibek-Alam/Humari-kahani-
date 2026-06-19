@@ -7,13 +7,12 @@
 body{
     font-family: 'Georgia', serif;
     overflow-x:hidden;
-    background: linear-gradient(
-        to bottom,
-        #0b1020,
-        #182848,
-        #274060
-    );
-    color:white;
+    
+background-image:url('assets/garden.jpg');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+    
 }
 
 #website-content{

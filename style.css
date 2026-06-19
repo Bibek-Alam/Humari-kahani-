@@ -185,3 +185,72 @@ button{
     display:block;
     margin:auto;
 }
+.fireflies span{
+    position:fixed;
+    width:8px;
+    height:8px;
+    background:#fff8a6;
+    border-radius:50%;
+    box-shadow:0 0 15px #fff8a6;
+    animation:firefly 12s linear infinite;
+}
+
+.fireflies span:nth-child(1){
+    left:10%;
+    animation-delay:0s;
+}
+
+.fireflies span:nth-child(2){
+    left:20%;
+    animation-delay:2s;
+}
+
+.fireflies span:nth-child(3){
+    left:35%;
+    animation-delay:4s;
+}
+
+.fireflies span:nth-child(4){
+    left:50%;
+    animation-delay:6s;
+}
+
+.fireflies span:nth-child(5){
+    left:65%;
+    animation-delay:8s;
+}
+
+.fireflies span:nth-child(6){
+    left:75%;
+    animation-delay:1s;
+}
+
+.fireflies span:nth-child(7){
+    left:85%;
+    animation-delay:3s;
+}
+
+.fireflies span:nth-child(8){
+    left:95%;
+    animation-delay:5s;
+}
+
+@keyframes firefly{
+    0%{
+        transform:translateY(100vh);
+        opacity:0;
+    }
+
+    20%{
+        opacity:1;
+    }
+
+    80%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-100px);
+        opacity:0;
+    }
+}

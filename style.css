@@ -152,3 +152,7 @@ button{
         transform:translateY(-10px);
     }
 }
+.rose img{
+    width:180px;
+    animation:float 4s ease-in-out infinite;
+}
